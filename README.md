@@ -1,24 +1,9 @@
 # vue3-demo
 
-## Project setup
-```
-npm install
-```
+* store
+* router
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 添加vue-router@next
+https://github.com/shallinta/vite-vue3-router-next-demo/blob/master/src/main.ts
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://github.com/vuejs/vue-router-next

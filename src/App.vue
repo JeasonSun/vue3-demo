@@ -1,17 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="vue3-typescript-demo">
+    <div class="navs-container">
+      <ul>
+        <li><router-link to="/?delay=6000">Home</router-link></li>
+        <li><router-link to="/foo">Foo</router-link></li>
+        <li><router-link to="/bar">Bar</router-link></li>
+        <li><router-link to="/guard/delay">guard delay</router-link></li>
+      </ul>
+    </div>
+    <router-view></router-view>
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import { Vue } from 'vue-class-component'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+export default class App extends Vue { }
 </script>
 
 <style>
